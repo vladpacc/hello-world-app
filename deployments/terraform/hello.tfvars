@@ -1,6 +1,0 @@
-#credentials = "common-service-account.json"
-google_bucket_name = "devoploadbalancer"
-#deployment_name = "hello_world"
-google_project_id = "coherent-parity-286017"
-#google_domain_name = "devoploadbalancer.com"
-#deployment_environment = "stage"
