@@ -28,7 +28,7 @@ ingress:
       - /
 
   tls: 
-   - secretName: hello-fuchicorp
+  - secretName: hello-fuchicorp
     hosts:
     - ${deployment_endpoint}
 
