@@ -15,7 +15,7 @@ output "application_endpoint" {
 }
 
 variable "deployment_image" {
-  default = "docker.devoploadbalancer.com/hello-world-app-dev-feature:4b7aacb"
+  default = "docker.devoploadbalancer.com/hello-world-app-dev-feature:6d308e8"
 }
 
 variable "deployment_environment" {

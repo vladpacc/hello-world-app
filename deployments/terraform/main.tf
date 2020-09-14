@@ -12,7 +12,7 @@ output "application_endpoint" {
     value = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}.${var.google_domain_name}"
 }
 variable  "deployment_image" {
-    default = "docker.fuchicorp.com/hello-world-app-dev-feature:4b7aacb"
+    default = "docker.devoploadbalancer.com/hello-world-app-dev-feature:4b7aacb"
 }
 variable "deployment_environment" {
     default = "stage"
